@@ -11,7 +11,7 @@ This is Robocon2023 ABU Stage simulating in Gazebo with a 4 mecanum wheel robot.
 3.In the root of your workspace,run ```rosdep install -i --from-path src --rosdistro foxy -y``` to check dependencies.
 > Note:Ros distro may vary depends on you,this project use Ros2 foxy.
 
-4.Run ```colcon build``` or ```colcon build abu2023_simulating_stage``` if your workspace has many packages and you only want to build this package.
+4.Run ```colcon build``` or ```colcon build --packages-select abu2023_simulating_stage``` if your workspace has many packages and you only want to build this package.
 
 # How to use/run package
 
