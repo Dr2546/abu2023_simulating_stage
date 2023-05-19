@@ -12,7 +12,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    package_name = "abu2023"
+    package_name = "ABU2023_Simulating_Stage"
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
