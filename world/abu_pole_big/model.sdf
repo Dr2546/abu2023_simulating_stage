@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="abu_pole_big">
+      <pose>0 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+		  <mesh><uri>model://abu_pole_big/meshes/abu_pole_big.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+ </model>
+</sdf>
+
