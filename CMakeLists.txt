@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(ABU2023_Simulating_Stage)
+project(abu2023_simulating_stage)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
